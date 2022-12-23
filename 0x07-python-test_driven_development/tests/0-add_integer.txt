@@ -1,0 +1,14 @@
+def add_integer(a, b=98):
+    # Check if a is an integer or a float
+    if a is not an integer or a is not a float:
+        # Raise a TypeError exception with the message "a must be an integer or a float"
+        raise TypeError("a must be an integer or a float")
+    # Check if b is an integer or a float
+    if b is not an integer or b is not a float:
+        # Raise a TypeError exception with the message "b must be an integer or a float"
+        raise TypeError("b must be an integer or a float")
+    # Convert a and b to integers (if they are floats)
+    a = integer version of a
+    b = integer version of b
+    # Return the result of adding a and b
+    return a + b
