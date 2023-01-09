@@ -1,6 +1,7 @@
 
 **PYTHON'S INHERITANCE**
-nheritance is a way to create a new class that is a modified version of an existing class. The new class is called the subclass, and the existing class is the superclass.
+*........................*
+Inheritance is a way to create a new class that is a modified version of an existing class. The new class is called the subclass, and the existing class is the superclass.
 
 The subclass can inherit attributes and behaviors from the superclass, and can also have additional attributes and behaviors of its own. This allows you to create a new class that is a specialized version of an existing class, without having to rewrite all of the code in the new class.
 
@@ -19,4 +20,4 @@ class Dog(Animal):
         super().__init__(name, species="Dog")
 ```
 
-In this example, the Dog class is a subclass of the Animal class. It inherits the name and species attributes from the Animal class, and it also has a new attribute, breed, that is specific to the Dog class. The Dog class also has an __init__ method that overrides the __init__ method of the Animal class, and calls the __init__ method of the Animal class using the super() function to set the name and species attributes.
+In this example, the Dog class is a subclass of the Animal class. It inherits the name and species attributes from the Animal class, and it also has a new attribute, breed, that is specific to the Dog class. The Dog class also has an "__init__" method that overrides the "__init__" method of the Animal class, and calls the "__init__" method of the Animal class using the super() function to set the name and species attributes.
